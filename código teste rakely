@@ -1,0 +1,51 @@
+<html>
+   <head>
+  <style>
+  body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100;
+a
+{
+text-decoration: none;
+.box {
+font-size: 20px;
+color:
+Iwhite;height: 250px;width: 350px;
+border-radius: 1epx;
+background： □#191919;flex-direction: column;display: flex;
+align-items: center;
+justify-content: center;
+.butttons-container {
+display: flex;
+justify-content: space-around;
+height: 5@px;
+width: 150px;
+button {
+height: 30px;
+width: 5epx;
+background: ■white;border-radius: 5px;color: □blue;
+font-weight: 600;
+
+  </style>
+</head>
+<body>
+<div class="box">
+<p>Raquely quer ryan?</p>
+<div class="butttons-container">
+<button
+<a href="https://link.com">Sim</a></button>
+<button id="no">não</button></div>
+</body>
+<script>
+let button = document.getElementById('no');
+let height = windows.innerHeight - 50;
+let width = windows.innerwidth - 50;
+button.addEventListener('mouseover',function (){
+button.style.position = "absolute";
+button.style.top = Math.random()*height + "px";
+button.style.left = Math.random()*height + "px";
+})
+</script>
+</html>
